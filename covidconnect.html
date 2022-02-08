@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Survey Page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+
+    <style>
+      body {
+        background-image: url('covid.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        
+      }
+      </style>
+
+
+
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <center><img src="logo.png"  width="300" height="150"></center>
+            <h1>Survey Form</h1>
+          </div>
+          <div class="panel-body">
+            <form action="covidconnect.php" method="post">
+              
+              <div class="form-group">
+                <label for="username">Your Username</label><br><br>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  name="username"
+                  
+                />
+              </div><br><br>
+              
+              
+              <div class="form-group">
+                <label for="Current_location">What is your current location?</label><br><br>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Current_location"
+                  name="Current_location"
+                />
+              </div><br><br>
+
+
+
+
+
+
+
+              <div class="form-group">
+                <label for="Prefer_location">What is your preferred location?</label><br><br>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Prefer_location"
+                  name="Prefer_location"
+                />
+              </div><br><br>
+
+
+
+
+              <div class="form-group">
+                <label for="Both_dose">Have you taken both the doses of Vaccination? (Yes/No)</label><br><br>
+                <div>
+                  <input
+                  type="text"
+                  class="form-control"
+                  id="Both_dose"
+                  name="Both_dose"
+                  />
+                </div><br><br>
+                    
+              <div class="form-group">
+                <label for="Safety">Are you taking safety precautions to fight against covid?</label><br><br>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Safety"
+                  name="Safety"
+                />
+              </div><br><br>
+
+
+
+
+              <div class="form-group">
+                <label for="Arogya_setu">Have you downloaded Arogya Setu app?</label><br><br>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Arogya_setu"
+                  name="Arogya_setu"
+                />
+              </div><br><br>
+              
+              
+              
+              
+              <div class="form-group">
+                <label for="Risk_factor">What is risk factor of COVID nearby your area? (Specify-High/Medium/Low)</label><br><br>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Risk_factor"
+                  name="Risk_factor"
+                />
+              </div><br><br>
+              
+              
+              
+              
+              <div class="form-group">
+                <label for="Symptoms">Do you have symptoms of Covid like Coughing, High Fever, Shortness of breath, Joint & muscle pains?</label><br><br>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Symptoms"
+                  name="Symptoms"
+                />
+              </div><br><br>
+
+              <div class="form-group">
+                <label for="Covid_infected">Did you have corona virus infection before? (Yes/No)</label><br><br>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Covid_infected"
+                  name="Covid_infected"
+                />
+              </div><br><br>
+
+              <div class="form-group">
+                <label for="transport">Have you travelled by using any public transportation in last 7 days?</label><br><br>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="transport"
+                  name="transport"
+                />
+              </div><br><br>
+
+
+              <div class="form-group">
+                <label for="Family_infected">Is there any family member infected recently by COVID in last 7 days?</label><br><br>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Family_infected"
+                  name="Family_infected"
+                />
+              </div><br><br>
+
+
+                                     
+              <input type="submit" class="btn btn-primary" />
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    
+    
+  </body>
+</html>
+
